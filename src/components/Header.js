@@ -197,7 +197,7 @@ const Header = ({setOpenDrawer}) => {
               </div>
               {/* small devices */}
               <div className={classes.smallDevices}>
-                 <button className={classes.buttonOne} onClick={() => setOpenStoryMenu(true)}>yooo</button>
+                 <button className={classes.buttonOne} onClick={() => setOpenStoryMenu(true)}>create story</button>
                  {/* creating a menu */}
                  <Menu open={openStoryMenu} onClose={() => setOpenStoryMenu(false)}
                         anchorOrigin={{
